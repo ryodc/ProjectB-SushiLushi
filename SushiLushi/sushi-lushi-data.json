@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "email": "admin",
+      "password": "12345",
+      "role": "admin"
+    },
+    {
+      "username": "donnavolk",
+      "email": "donnavolk2@gmail.com",
+      "password": "Password1",
+      "role": "user"
+    },
+    {
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "Testtest123",
+      "role": "user"
+    },
+    {
+      "username": "123",
+      "email": "test123@gmail.com",
+      "password": "Test1234567890",
+      "role": "user"
+    }
+  ],
+  "reservations": [
+    {
+      "guestAccount": true,
+      "username": "",
+      "amountPeople": 3,
+      "peopleNotes": [
+        "Geen",
+        "Vegetarisch",
+        "Veganistisch"
+      ],
+      "datetime": "2021-05-19T18:00:00"
+    },
+    {
+      "guestAccount": true,
+      "username": "",
+      "amountPeople": 2,
+      "peopleNotes": [
+        "Vegetarisch",
+        "Vegetarisch"
+      ],
+      "datetime": "2021-05-20T16:00:00"
+    },
+    {
+      "guestAccount": true,
+      "username": "",
+      "amountPeople": 2,
+      "peopleNotes": [
+        "Geen",
+        "Geen"
+      ],
+      "datetime": "2021-05-27T16:00:00"
+    },
+    {
+      "guestAccount": false,
+      "username": "donnavolk",
+      "amountPeople": 3,
+      "peopleNotes": [
+        "Geen",
+        "Geen",
+        "Geen"
+      ],
+      "datetime": "2021-05-27T13:00:00"
+    },
+    {
+      "guestAccount": false,
+      "username": "test",
+      "amountPeople": 4,
+      "peopleNotes": [
+        "Geen",
+        "Vegetarisch",
+        "Veganistisch",
+        "Glutenvrij"
+      ],
+      "datetime": "2021-05-27T18:00:00"
+    }
+  ]
+}
